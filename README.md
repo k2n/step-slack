@@ -21,7 +21,7 @@ builds or deploys.
 ```yaml
 build:
     after-steps:
-        - slack-notifier:
+        - signifier/slack-notifier:
             url: $SLACK_URL
             channel: notifications
             username: myamazingbotname
